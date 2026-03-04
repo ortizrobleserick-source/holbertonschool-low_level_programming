@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
- * _islower - comprueba si un carácter es minúscula
- * @c: carácter a verificar
+ * _islower - checks for lowercase character
+ * @c: character to check
  *
- * Return: 1 si es minúscula, 0 en caso contrario
+ * Return: 1 if c is lowercase, 0 otherwise
  */
 int _islower(int c)
 {
