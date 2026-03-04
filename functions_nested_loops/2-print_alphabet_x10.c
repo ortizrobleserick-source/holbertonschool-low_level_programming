@@ -3,12 +3,12 @@
 /**
  * print_alphabet_x10 - imprime el alfabeto en minúsculas 10 veces
  *
- * Retorno: void
+ * Return: void
  */
 void print_alphabet_x10(void)
 {
+    int i, j;
     char c;
-    int i;
 
     for (i = 0; i < 10; i++)
     {
