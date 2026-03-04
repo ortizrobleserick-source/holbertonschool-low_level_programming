@@ -1,21 +1,16 @@
 #include "main.h"
 
 /**
- * print_alphabet_x10 - imprime el alfabeto en minúsculas 10 veces
- *
- * Return: void
+ * print_alphabet_x10 - imprime el abecedario 10 veces en minúsculas
  */
 void print_alphabet_x10(void)
 {
-  int i;
-  char c;
+	int i, j;
 
-  for (i = 0; i < 10; i++)
-  {
-    for (c = 'a'; c <= 'z'; c++)
-    {
-      _putchar(c);
-    }
-    _putchar('\n');
-  }
+	for (i = 0; i < 10; i++)
+	{
+		for (j = 'a'; j <= 'z'; j++)
+			_putchar(j);
+		_putchar('\n');
+	}
 }
