@@ -1,7 +1,7 @@
 #ifndef MAIN_H
 #define MAIN_H
 
-/* Prototipo de _putchar */
+/* Prototype of _putchar */
 int _putchar(char c);
 
 /* Task 0: _isupper */
@@ -21,5 +21,8 @@ int _isalpha(int c);
 
 /* Task 5: print_sign */
 int print_sign(int n);
+
+/* Task 6: _abs */
+int _abs(int n);
 
 #endif /* MAIN_H */
