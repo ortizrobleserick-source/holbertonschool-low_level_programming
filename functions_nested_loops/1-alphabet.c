@@ -3,17 +3,17 @@
 /**
  * print_alphabet - prints the alphabet in lowercase
  *
- * Return: void
+ * You can only use _putchar twice
  */
 void print_alphabet(void)
 {
-	char c = 'a';
+	char c;
 
+	c = 'a';
 	while (c <= 'z')
 	{
 		_putchar(c);
 		c++;
 	}
-
 	_putchar('\n');
 }
