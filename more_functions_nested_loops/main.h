@@ -1,7 +1,7 @@
 #ifndef MAIN_H
 #define MAIN_H
 
-/* Prototype of main function */
-int main(void);
+int _putchar(char c);
+void print_triangle(int size);
 
 #endif /* MAIN_H */
