@@ -1,7 +1,16 @@
 #ifndef MAIN_H
 #define MAIN_H
 
-void swap_int(int *a, int *b);
-int _putchar(char c);  /* opcional */
+/* 
+ * File: main.h
+ * Description: Header file containing prototypes for all functions
+ *              used in the pointers, arrays, and strings project.
+ */
 
-#endif
+/* Function prototypes */
+int _putchar(char c);
+void reset_to_98(int *n);
+void swap_int(int *a, int *b);
+int _strlen(char *s);
+
+#endif /* MAIN_H */
