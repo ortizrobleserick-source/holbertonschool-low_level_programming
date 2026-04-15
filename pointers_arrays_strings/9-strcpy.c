@@ -1,5 +1,11 @@
 #include <stdio.h>
-
+/**
+ * _strcpy - Copy souce string into destination
+ * @dest: Destination string
+ * @src: source string
+ *
+ * Return: Pointer to destination string
+ */
 char *_strcpy(char *dest, char *src)
 {
 	int i;
